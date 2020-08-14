@@ -79,12 +79,6 @@ private val data = listOf(
         "Running motion with code",
         "Learn how to use MotionLayout to build complex collapsing toolbar animations.",
         Step8Activity::class
-    ),
-    Step("Completed: Step 8 ",
-        "Implements running motion with code",
-        "Changes applied from step 8",
-        Step8CompletedActivity::class,
-        highlight = true
     )
 )
 

@@ -30,13 +30,24 @@
 
         <KeyFrameSet>
             <KeyPosition
-                    app:framePosition="50"
-                    app:motionTarget="@id/moon"
-                    app:keyPositionType="parentRelative"
-                    app:percentY="0.5"
-            />
-            <!-- TODO: Add two more KeyPositions to the KeyFrameSet here -->
+                app:framePosition="50"
+                app:motionTarget="@id/moon"
+                app:keyPositionType="parentRelative"
+                app:percentY="0.7"
+                />
 
+            <KeyPosition
+                app:framePosition="25"
+                app:motionTarget="@id/moon"
+                app:keyPositionType="parentRelative"
+                app:percentY="0.6"
+                />
+            <KeyPosition
+                app:framePosition="75"
+                app:motionTarget="@id/moon"
+                app:keyPositionType="parentRelative"
+                app:percentY="0.6"
+                />
         </KeyFrameSet>
     </Transition>
 
